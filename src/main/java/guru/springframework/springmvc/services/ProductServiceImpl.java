@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 import java.util.*;
 
 @Service
-@Profile("map")
+//@Profile("map")
 public class ProductServiceImpl implements ProductService {
     private Map<Integer, Product> products;
 

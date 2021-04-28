@@ -1,10 +1,14 @@
 package guru.springframework.springmvc.domain;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
 
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
 @Data
 public class Product {
